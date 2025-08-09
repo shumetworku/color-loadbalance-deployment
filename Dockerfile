@@ -5,4 +5,4 @@ COPY package*.json ./
 RUN npm install --production
 COPY . .
 EXPOSE 3000
-CMD ["node", "service.js"]
+CMD ["node", "index.js"]

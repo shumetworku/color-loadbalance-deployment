@@ -20,6 +20,6 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          IMAGE=YOUR_DOCKER_USERNAME/color-loadbalancer-demo
+          IMAGE=shumet/color-loadbalancer-demo
           docker build -t $IMAGE:latest .
           docker push $IMAGE:latest

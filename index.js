@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
       <body style="background-color:${color}; color:white; text-align:center; font-family:sans-serif;">
         <h1>Pod: ${hostname}</h1>
         <h2>Color: ${color}</h2>
-        <p>Served via LoadBalancer the finale deployment</p>
+        <p>Served via LoadBalancer auto sync test</p>
       </body>
     </html>
   `);

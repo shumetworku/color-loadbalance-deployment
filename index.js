@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
       <body style="background-color:${color}; color:white; text-align:center; font-family:sans-serif;">
         <h1>Pod: ${hostname}</h1>
         <h2>Color: ${color}</h2>
-        <p>Served via LoadBalancer to check argocd autosync if it syncd the final autosync</p>
+        <p>Served via LoadBalancer to check argocd autosync</p>
       </body>
     </html>
   `);
